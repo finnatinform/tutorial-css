@@ -1,0 +1,27 @@
+$fullsize : 100%;
+$zero : 0 ;
+
+body,
+html{
+    width: $fullsize;
+    height: $fullsize ;
+
+    margin: $zero ;
+    padding: $zero ;
+}
+
+.test{
+    width: 800px;
+    .test-child{
+        width: 50%;
+    }
+}
+
+%parent{
+    width: 100%;
+}
+
+child{
+    @extend %parent ;
+    height: 100%;
+}

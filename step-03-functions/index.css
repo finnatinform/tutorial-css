@@ -1,0 +1,30 @@
+/* Element Selectors */
+html,
+body{
+    margin: 0;
+    padding : 0;
+
+    width: 100%;
+    height: 100%;
+
+    font-family: 'Segoe UI Light', sans-serif;
+
+}
+
+/*Class Selectors*/
+.wrapper{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+}
+
+/*Id-Selector*/
+#id-element {
+    border: 1px solid #ECEFF1; /* Light grey */
+    background-color: #ECEFF1;
+    width: 400px;
+    height: 100px;
+}

@@ -1,0 +1,28 @@
+{
+  "name": "step-06-modules",
+  "version": "1.0.0",
+  "description": "When developing projects with react/tsx in the past, we linked the css file to the index.html.\r But what, if we want to split the css declarations in the same parts as we plsit our code?\r For this usecase, you can use css-modules.\r Just like importing a code-module, you can import css-modules with css.\r Similar to typescript, all you need, is a typings file.",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/react": "^16.0.40",
+    "@types/react-dom": "^16.0.4",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^4.0.1",
+    "css-loader": "^0.28.10",
+    "source-map-loader": "^0.2.3",
+    "style-loader": "^0.20.3",
+    "typescript": "^2.7.2",
+    "typings-for-css-modules-loader": "^1.7.0",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.12"
+  }
+}
